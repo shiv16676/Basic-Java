@@ -1,0 +1,28 @@
+Postgresql:
+************************
+1.Open CMD
+2. Go to C:\Alfresco\postgresql\bin
+3. Enter the required command:
+pg_ctl -D C:\Alfresco\alf_data\postgresql status
+pg_ctl -D C:\Alfresco\alf_data\postgresql start
+pg_ctl -D C:\Alfresco\alf_data\postgresql stop
+
+pg_ctl -D k:\Alfresco\alf_data\postgresql start
+
+cURL is a valuable web script debugging and testing tool. 
+
+Links:
+=========
+Alfresco Documentation: http://docs.alfresco.com/4.2/index.jsp
+Alfresco Wiki: https://wiki.alfresco.com/wiki/Alfresco_Community_4.2
+Alfresco SDK SetUp:http://wiki.alfresco.com/wiki/Alfresco_SDK_4.0
+
+set JAVA_OPTS=++JvmOptions="-XX:-DisableExplicitGC" ++JvmOptions="-XX:ReservedCodeCacheSize=128m" --JvmMs 256 --JvmMx 1024 ++JvmOptions="-XX:MaxPermSize=256M" %JAVA_OPTS%
+
+set JAVA_OPTS=%JAVA_OPTS% -Xms128m -Xmx1024m -XX:PermSize=64m -XX:MaxPermSize=256m
+
+http://localhost:8080/alfresco/service/showhomedetails
+http://localhost:8080/alfresco/service/index
+
+Solr related changes to make
+
